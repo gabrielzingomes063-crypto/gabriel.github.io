@@ -1,1 +1,155 @@
-<h1>oi, este é meu site</h1>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Peixaria Mar Azul</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f4f9fc;
+}
+
+header{
+    background:#0077b6;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.hero{
+    background:linear-gradient(rgba(0,119,182,0.7), rgba(0,119,182,0.7)),
+    url('https://images.unsplash.com/photo-1544943910-4c1dc44aab44');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h1{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:1.2rem;
+    margin-bottom:20px;
+}
+
+.btn{
+    background:#00b4d8;
+    color:white;
+    padding:15px 30px;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.produtos{
+    padding:50px 20px;
+    text-align:center;
+}
+
+.produtos h2{
+    margin-bottom:30px;
+    color:#023e8a;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    width:250px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.card h3{
+    color:#0077b6;
+    margin-bottom:10px;
+}
+
+.card p{
+    margin-bottom:10px;
+}
+
+.contato{
+    background:#0077b6;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+footer{
+    text-align:center;
+    padding:15px;
+    background:#023e8a;
+    color:white;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h2>🐟 Peixaria Mar Azul</h2>
+</header>
+
+<section class="hero">
+    <h1>Peixes Frescos Todos os Dias</h1>
+    <p>Qualidade, sabor e frescor direto do mar para sua mesa.</p>
+    <a href="#contato" class="btn">Faça seu Pedido</a>
+</section>
+
+<section class="produtos">
+    <h2>Nossos Produtos</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Tilápia</h3>
+            <p>Peixe fresco e selecionado.</p>
+            <strong>R$ 24,90/kg</strong>
+        </div>
+
+        <div class="card">
+            <h3>Tambaqui</h3>
+            <p>Ideal para churrasco.</p>
+            <strong>R$ 29,90/kg</strong>
+        </div>
+
+        <div class="card">
+            <h3>Camarão</h3>
+            <p>Limpo e pronto para preparo.</p>
+            <strong>R$ 49,90/kg</strong>
+        </div>
+
+    </div>
+</section>
+
+<section class="contato" id="contato">
+    <h2>Entre em Contato</h2>
+    <p>📞 (88) 99999-9999</p>
+    <p>📍 Iguatu - CE</p>
+</section>
+
+<footer>
+    © 2026 Peixaria Mar Azul - Todos os direitos reservados.
+</footer>
+
+</body>
+</html>
